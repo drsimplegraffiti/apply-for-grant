@@ -91,9 +91,7 @@ Login a user
 }
 ```
 
-{
-Authorization: "Bearer token"
-}
+---
 
 #### Reject a grant
 
@@ -105,38 +103,32 @@ Authorization: "Bearer token"
 }
 ```
 
-{
-Authorization: "Bearer token"
-}
+---
 
 #### Get grant stats - Admin
 
 > localhost:7878/api/users/grant-stats
 
-{
-Authorization: "Bearer token"
-}
+---
 
 #### Get users stats - Admin
 
 > localhost:7878/api/users/stats
 
-{
-Authorization: "Bearer token"
-}
+---
 
 #### search all users - Admin
 
 > localhost:7878/api/users/search?search=a
 
-{
-Authorization: "Bearer token"
-}
+---
 
 #### search all grants - Admin
 
 > localhost:7878/api/users/grant?search=a
 
-{
-Authorization: "Bearer token"
-}
+---
+
+### Get total amount of grant - Admin
+
+> localhost:7878/api/users/disbursed
